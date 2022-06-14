@@ -1,0 +1,64 @@
+*{
+    font-family: 'Inter', sans-serif; 
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+body{
+    background-color: #282D35;
+    width: 100vw;
+    height: 100vh;
+    margin: 0; 
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    background-color:#21222A;
+    align-items: center;
+    padding: 30px 20px;
+}
+nav > img{
+    margin-right: 8px;
+    width: 60px;
+    height: 60px;
+}
+.nav__logo-text{
+    color: #61DAFB;
+    margin-right: auto;
+    font-size: 1.8rem;
+}
+.nav__project-title{
+    color: #DEEBF8;
+    font-weight: 600;
+}
+main{
+    background-image: url("./assets/icon-bg.png");
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: right 70%;
+    color: #ffffff;
+    width:500px
+}
+.main__page-title{
+    font-size: 2.4rem;
+    margin: 2rem 0;
+}
+.main__facts{
+    max-width: 400px;
+}
+.main__facts>li{
+    padding-block: 0.8rem; /*Especifica padding solo superior e inferior*/
+    line-height: 1.5rem;
+}
+.main__facts>li::marker{
+    color: #61DAFB; 
+    font-size: 2rem;
+}
